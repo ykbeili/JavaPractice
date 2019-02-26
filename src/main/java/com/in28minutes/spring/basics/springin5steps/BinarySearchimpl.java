@@ -5,8 +5,12 @@ public class BinarySearchimpl {
 	// Search the array
 	// Return the result
 	public int binarySearch(int[] numbers, int numberToSearchFor) {
+		BubbleSortAlgorithm bubbleSortAlgorithm = new BubbleSortAlgorithm();
+		int[] sortedNumbers = bubbleSortAlgorithm.sort(numbers);
 //	Implementing Sorting Logic
+//	Bubble Sort Algorithm
 //	Search the array
+		
 	return 3;
 	}
 }
